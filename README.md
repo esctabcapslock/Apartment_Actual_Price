@@ -11,7 +11,7 @@
 - <a href="https://esctabcapslock.github.io/Apartment_Actual_Price/2(%EC%9D%8D%EB%A9%B4%EB%8F%99).html"> 읍면동(클릭) </a>
 
 ## 만든 법
-### 전국구
+### 시군구
 - <a href="http://buking.kr/">부킹닷컴</a>에서 2020.07의 월 별 데이터를 자바스크립트로 크롤링한 뒤, 엑셀로 처리했음.
 - 지도 데이터는 <a href="http://www.gisdeveloper.co.kr/?p=2332">여기</a>의 자료를 바탕으로 QGIS를 활용해 단순화시켜 geojson으로 변경함. 자바스크립트로 svg로 변경함.
 
