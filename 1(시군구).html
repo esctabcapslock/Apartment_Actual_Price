@@ -93,7 +93,15 @@
         t_out+=`</svg>`
         
         document.getElementById('map').innerHTML = t_out
+            
+        fetch("시군구 데이터.js").then((response) => {
+            return response.text();
+        }).then((data) => {eval(data);})
         });
+        
+        
+        
+                
         
         
 /*
