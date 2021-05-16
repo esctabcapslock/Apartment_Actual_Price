@@ -94,7 +94,7 @@
         
         document.getElementById('map').innerHTML = t_out
             
-        fetch("시군구 데이터.js").then((response) => {
+        fetch("시군구 데이터.txt").then((response) => {
             return response.text();
         }).then((data) => {eval(data);})
         });
